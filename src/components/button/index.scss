@@ -1,0 +1,26 @@
+.button-wrapper {
+  font-size: 14px;
+  cursor: pointer;
+  height: 32px;
+  padding: 0 22px;
+  border-radius: 4px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  &.primary {
+    color: #fff;
+    background: #1890ff;
+    &:hover {
+      background: #40a9ff;
+    }
+  }
+  &.secondary {
+    background: #fff;
+    color: #1890ff;
+    border-color: #1890ff;
+    &:hover {
+      color: #40a9ff;
+      border-color: #40a9ff;
+    }
+  }
+}

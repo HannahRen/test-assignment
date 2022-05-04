@@ -1,0 +1,15 @@
+.select-wrapper {
+  margin-right: 20px;
+  height: 32px;
+  padding: 0px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-color: #1890ff;
+  border-radius: 4px;
+  color: #1890ff;
+  outline: none;
+  box-sizing: border-box;
+  &:hover {
+    color: #40a9ff;
+  }
+}

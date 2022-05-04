@@ -1,0 +1,31 @@
+.main-wrapper {
+  margin-top: 68px;
+  min-height: calc(100vh - 68px);
+  background: rgb(247, 250, 249);
+  padding: 20px 40px;
+  box-sizing: border-box;
+  .subtitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .critical {
+    background: #e71d1d;
+  }
+  .major {
+    background: #ef8e00;
+  }
+  .minor {
+    background: #ddd326;
+  }
+  .warning {
+    background: #7d85b2;
+  }
+  .default {
+    background: #99b4ba;
+  }
+  .chart-wrapper {
+    margin-top: 30px;
+    width: 600px;
+  }
+}

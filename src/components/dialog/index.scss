@@ -1,0 +1,26 @@
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  .dialog-content {
+    position: relative;
+    min-width: 30%;
+    padding: 20px 40px;
+    background: #fff;
+    .button-row {
+      margin-top: 20px;
+      float: right;
+      button {
+        margin-left: 10px;
+      }
+    }
+
+  }
+}

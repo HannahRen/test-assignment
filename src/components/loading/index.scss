@@ -1,0 +1,16 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-wrapper {
+  padding-top: 100px;
+  text-align: center;
+  svg {
+    animation: rotation 2s infinite linear;
+  }
+}
